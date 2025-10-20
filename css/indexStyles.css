@@ -1,0 +1,31 @@
+#main-nav {
+    float: left;
+    width: 100%;
+    background-color: #ffdef4;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left; 
+    position: relative;
+    left:50%;
+}
+
+#main-nav ul li {
+    float: left;
+    position: relative;
+    right: 50%;
+}
+
+#main-nav ul li a {
+    padding: 10px 25px;
+    display: block;
+    text-decoration: none;
+    color: #ffe5fb;
+}
+
+#main-nav ul li a:hover {
+    background-color: #ff9dda;
+    color: #ff009d;
