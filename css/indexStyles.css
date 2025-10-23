@@ -13,6 +13,7 @@
 }
 
 #main-nav ul li {
+    background-color: #ff80d5;
     display: flex;
     position: relative;
 }
