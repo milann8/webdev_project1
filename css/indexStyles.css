@@ -1,5 +1,4 @@
 #main-nav {
-    float: left;
     width: 100%;
     background-color: #ffdef4;
 }
@@ -8,15 +7,14 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    float: left; 
+    display: flex;
     position: relative;
-    left:50%;
+
 }
 
 #main-nav ul li {
-    float: left;
+    display: flex;
     position: relative;
-    right: 50%;
 }
 
 #main-nav ul li a {
