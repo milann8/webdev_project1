@@ -53,19 +53,21 @@ h1 {
 }
 
 .photo-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 2rem; 
+    display: flex;                 
+    justify-content: space-around; 
+    align-items: flex-start;       
+    flex-wrap: wrap;              
+    gap: 2rem;                   
     margin: 2rem 0;
 }
 
 .photo-row {
-    text-align: center;
-    max-width: 20vw; 
+    text-align: center;           
+    max-width: 20vw;            
 }
+
 .photo-row img {
-    width: 100%;
-    height: auto;
+    width: 100%;                  
+    height: auto;                 
+    border-radius: 0.5rem;        
 }
