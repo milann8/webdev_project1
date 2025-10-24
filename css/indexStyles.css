@@ -1,21 +1,21 @@
-html{
-    background-color: #ffdef4;
-}
 #main-nav {
     width: 100%;
+    background-color: #ffdef4;
 }
 
 #main-nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;                  
-    justify-content: space-around;  
-    align-items: center;            
+    display: flex;
+    position: relative;
+
 }
 
 #main-nav ul li {
     background-color: #ff80d5;
+    display: flex;
+    position: relative;
 }
 
 #main-nav ul li a {
@@ -29,8 +29,7 @@ html{
     background-color: #ff9dda;
     color: #ff009d;
 }
-
-#h1 {
+#header h1 {
     position: absolute;
     left: 420px;
     top:5px;
@@ -38,4 +37,3 @@ html{
     font-family: 'PT Serif', serif;
     color: #ff0044;
 }
-
