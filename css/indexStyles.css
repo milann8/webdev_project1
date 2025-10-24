@@ -60,8 +60,15 @@ h1 {
     height: auto;    
 }
 
-#me {
-    float: right;      
+#dream {
+    float: left;      
+    margin-right: 1rem; 
+    margin-bottom: 1rem; 
+    width: 200px;       
+    height: auto;    
+}
+#career {
+    float: left;      
     margin-right: 1rem; 
     margin-bottom: 1rem; 
     width: 200px;       
