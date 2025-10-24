@@ -58,8 +58,8 @@ h1 {
     align-items: self-start;
 }
 .container img{
-    width: 200px; 
-    height: 150px;
+    width: 100px; 
+    height: 50px;
 }
 .container2 {
     display: flex;
