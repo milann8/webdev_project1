@@ -57,10 +57,7 @@ h1 {
     justify-content: space-evenly;
     align-items: self-start;
 }
-.container img{
-    width: 100px; 
-    height: 50px;
-}
+
 .container2 {
     display: flex;
     justify-content: space-evenly;
