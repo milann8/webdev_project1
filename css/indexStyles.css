@@ -54,27 +54,31 @@ h1 {
     margin: 2rem 0;
 }
 
-#me {
-    float: left;      
-    margin-right: 1rem; 
-    margin-bottom: 1rem; 
-    width: 200px;       
-    height: auto;    
+.photo-row {
+    display: flex;                  
+    justify-content: space-around;  
+    gap: 2rem;                      /* space between items */
+    flex-wrap: wrap;                /* allows items to wrap on smaller screens */
+    margin: 2rem 0;
 }
 
-#school {
-    float: left;      
-    margin-right: 1rem; 
-    margin-bottom: 1rem; 
-    width: 200px;       
-    height: auto;    
+.photo-item {
+    text-align: center;            
+    width: 20vw;                   /* relative width for fluid layout */
+    max-width: 250px;              /* optional max size in px */
 }
 
-#dream {
-    float: right;      
-    margin-right: 1rem; 
-    margin-bottom: 1rem; 
-    width: 200px;       
-    height: auto;    
+.photo-item img {
+    width: 100%;                   /* fill container width */
+    height: 25vw;                  /* relative height for fluid layout */
+    max-height: 250px;             /* optional max height */
+    object-fit: cover;             /* prevents distortion */
+    display: block;
+    margin: 0 auto;                /* center inside container */
+    border-radius: 0.5rem;         /* optional styling */
 }
 
+.photo-item p {
+    font-size: 1rem;               /* relative font size */
+    margin-top: 0.5rem;
+}
