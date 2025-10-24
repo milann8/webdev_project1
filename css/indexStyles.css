@@ -1,5 +1,5 @@
 #html{
-    background-color: #d3a7b9;
+    background-color: #d14982;
 }
 
 #main-nav {
@@ -37,6 +37,8 @@
 #p {
     font-size: 1em;
     font-family: "Times New Roman", Times, serif;
+    background-color:#ff9dda;
+    color:#ff009d;
 }
 
 #footer {
