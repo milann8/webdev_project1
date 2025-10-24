@@ -17,7 +17,8 @@
 
 #main-nav ul li {
     flex: 1;                        
-    text-align: center;           
+    text-align: center;     
+    font-size: 1em;      
 }
 
 #main-nav ul li a {
@@ -31,11 +32,15 @@
     background-color: #ff9dda;
     color: #ff009d;
 }
-#body h1 {
+#h1 {
     position: absolute;
     left: 420px;
     top:5px;
     font-size: 3em;
     font-family: 'PT Serif', serif;
     color: #ff0044;
+}
+#p {
+    font-size: 1em;
+    font-family: "Times New Roman", Times, serif;
 }
