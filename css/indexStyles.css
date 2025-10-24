@@ -1,6 +1,7 @@
 #html{
     background-color: #ffe6f0;
 }
+
 #main-nav {
     width: 100%;
     background-color:#fac0d7
@@ -32,6 +33,7 @@
     background-color: #ff9dda;
     color: #ff009d;
 }
+
 #h1 {
     position: absolute;
     left: 420px;
@@ -40,7 +42,31 @@
     font-family: 'PT Serif', serif;
     color: #ff0044;
 }
+
 #p {
     font-size: 1em;
     font-family: "Times New Roman", Times, serif;
+}
+
+#footer {
+    border-top: 3px solid #ff009d; 
+    padding: 10px;
+}
+
+#photo-container {
+    display: flex;                 /* puts the children side by side */
+    justify-content: space-around; /* space between each item */
+    align-items: flex-start;       /* align images at the top */
+    flex-wrap: wrap;               /* allows wrapping on smaller screens */
+    gap: 20px;                     /* extra space between items */
+}
+
+#photo-row {
+    text-align: center;           /* centers text under each image */
+    max-width: 200px;             /* optional: constrain width */
+}
+
+#photo-row img {
+    width: 100%;                  /* scales to max-width */
+    height: auto;
 }
