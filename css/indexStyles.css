@@ -1,19 +1,21 @@
 html{
     background-color: #ffdef4;
 }
+#main-nav {
+    width: 100%;
+}
+
 #main-nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;               
-    justify-content: center;     
-    position: relative;
+    display: flex;                  
+    justify-content: space-around;  
+    align-items: center;            
 }
 
 #main-nav ul li {
     background-color: #ff80d5;
-    display: flex;
-    margin: 0 10px;           
 }
 
 #main-nav ul li a {
