@@ -52,25 +52,3 @@ h1 {
     margin: 2rem 0;
 }
 
-#me {
-    float: left;      
-    margin-right: 1rem; 
-    margin-bottom: 1rem; 
-    width: 200px;       
-    height: auto;    
-}
-
-#dream {
-    float: left;      
-    margin-right: 1rem; 
-    margin-bottom: 1rem; 
-    width: 200px;       
-    height: auto;    
-}
-#career {
-    float: left;      
-    margin-right: 1rem; 
-    margin-bottom: 1rem; 
-    width: 200px;       
-    height: auto;    
-}
