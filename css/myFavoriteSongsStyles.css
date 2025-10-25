@@ -1,1 +1,54 @@
+html {
+    background-color: #f49dff;
+}
+#main-nav {
+    width: 100%;
+    background-color:#fac0d7
+}
 
+#main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;                  
+    justify-content: space-around;  
+    align-items: center;           
+}
+
+#main-nav ul li {
+    flex: 1;                        
+    text-align: center;     
+    font-size: 1em;      
+}
+
+#main-nav ul li a {
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #ff009d;
+}
+
+#main-nav ul li a:hover {
+    background-color: #ff9dda;
+    color: #ff009d;
+}
+
+h1 {
+    text-align: center;
+    background-color: #f290ff;
+    color:#e102ff;
+    font-size: 4em;
+}
+
+p {
+    font: size 3em;
+    color:#c300ff
+}
+
+ol li ul {
+    content: "🌸 "; 
+    margin-right: 8px;
+}
+ol li {
+    font-size:2em;
+}
