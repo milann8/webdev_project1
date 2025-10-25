@@ -60,17 +60,18 @@ h3{
 
 }
 
-#teamo {
-    border: 2px solid rgb(125, 160, 255);
+#teamo ul li{
+    content: "🧋 "; 
+    margin-right: 8px;
 }
 
-#jcp {
-    
-    border: 2px solid rgb(67, 117, 255);
+#jcp ul li{
+    content: "🌸 "; 
+    margin-right: 8px;
 }
 
-#stem {
-    border: 2px solid rgb(0, 68, 255);
+#stem ul li{
+    content: "🎀 "; 
+    margin-right: 8px;
 }
-
 
