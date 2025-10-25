@@ -3,7 +3,7 @@ html {
 }
 #main-nav {
     width: 100%;
-    background-color:#fac0d7
+    background-color: #fac0d7;
 }
 
 #main-nav ul {
@@ -23,7 +23,7 @@ html {
 
 #main-nav ul li a {
     display: block;
-    padding: 15px 0;
+    padding: 1em 0;
     text-decoration: none;
     color: #ff009d;
 }
@@ -41,13 +41,12 @@ h1 {
 }
 
 p {
-    font: size 3em;
+    font: size 4em;
     color:#c300ff
 }
 
 ol li ul {
     content: "🌸 "; 
-    margin-right: 8px;
 }
 ol li {
     font-size:2em;

@@ -1,10 +1,10 @@
-html{
+html {
     background-color: #a1daff;
 }
 
 #main-nav {
     width: 100%;
-    background-color:#fac0d7
+    background-color: #fac0d7;
 }
 
 #main-nav ul {
@@ -24,7 +24,7 @@ html{
 
 #main-nav ul li a {
     display: block;
-    padding: 15px 0;
+    padding: 1em 0;
     text-decoration: none;
     color: #ff009d;
 }
@@ -34,44 +34,46 @@ html{
     color: #ff009d;
 }
 
-body{
-    width: 1000px;
+body {
+    width: 62.5rem;
+    max-width: 90%;
     margin: 0 auto;
 }
+
 h1 {
     text-align: center;
     font-size: 3rem; 
     font-family: 'Sofia', serif;
     color: #1100ff;
     margin: 2rem 0;
-    font-family: 'Sofia', serif;
 }
 
 h2 {
     background-color: #6bc4ff;
     font-family: 'Sofia', serif;
-    
+    padding: 1rem;
+    border-radius: 0.625rem;
+    text-align: center;
 }
 
-h3{
+h3 {
     background-color: #59bbfc;
-    border-radius: 10px;
-    padding: 10px;
-
+    border-radius: 0.625rem;
+    padding: 1rem;
+    text-align: center;
 }
 
-#teamo ul li{
-    content: "🧋 "; 
-    margin-right: 8px;
+#teamo ul li::before {
+    content: "🧋 ";
+    margin-right: 0.5rem;
 }
 
-#jcp ul li{
-    content: "🌸 "; 
-    margin-right: 8px;
+#jcp ul li::before {
+    content: "🌸 ";
+    margin-right: 0.5rem;
 }
 
-#stem ul li{
-    content: "🎀 "; 
-    margin-right: 8px;
+#stem ul li::before {
+    content: "🎀 ";
+    margin-right: 0.5rem;
 }
-
