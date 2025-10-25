@@ -46,7 +46,13 @@ p {
 }
 
 ol li ul {
-    content: "🌸 "; 
+    list-style: none;
+    padding-left: 0;
+}
+
+ol li ul li::before {
+    content: "🌸 ";
+    margin-right: 0.5rem;
 }
 ol li {
     font-size:2em;

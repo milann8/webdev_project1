@@ -65,15 +65,18 @@ h3 {
 
 #teamo ul li::before {
     content: "🧋 ";
+    list-style-type: none;
     margin-right: 0.5rem;
 }
 
 #jcp ul li::before {
     content: "🌸 ";
+    list-style-type: none;
     margin-right: 0.5rem;
 }
 
 #stem ul li::before {
     content: "🎀 ";
+    list-style-type: none;
     margin-right: 0.5rem;
 }
